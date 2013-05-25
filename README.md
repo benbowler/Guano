@@ -1,4 +1,4 @@
 Guano
 =====
 
-Guano.im - poop for Twitter
+Guano.im - poop for Twitter :D
