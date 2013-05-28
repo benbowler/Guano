@@ -1,1 +1,14 @@
-{"guano":1}
+{
+  "guano":{
+    "version":1,
+    "path":"https:\/\/raw.github.com\/zivc\/Guano\/master\/lib\/guano.php"
+  },
+  "codebird":{
+    "version":1,
+    "path":"https:\/\/raw.github.com\/zivc\/Guano\/master\/lib\/codebird.php"
+  },
+  "heartbeat":{
+    "version":1,
+    "path":"https:\/\/raw.github.com\/zivc\/Guano\/master\/lib\/heartbeat.php"
+  }
+}
