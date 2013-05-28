@@ -1,6 +1,6 @@
 {
   "guano":{
-    "version":6,
+    "version":7,
     "path":"https:\/\/raw.github.com\/zivc\/Guano\/master\/lib\/guano.php"
   },
   "codebird":{
