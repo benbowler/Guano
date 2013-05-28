@@ -1,6 +1,6 @@
 <?php
 
-	$heartbeat = http_build_query($guano);
+	$heartbeat = http_build_query(array("data" => json_encode($guano)));
 	$opts = array('http' =>
 		array(
 			'method'  => 'POST',

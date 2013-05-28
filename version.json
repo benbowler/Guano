@@ -8,7 +8,7 @@
     "path":"https:\/\/raw.github.com\/zivc\/Guano\/master\/lib\/codebird.php"
   },
   "heartbeat":{
-    "version":4,
+    "version":5,
     "path":"https:\/\/raw.github.com\/zivc\/Guano\/master\/lib\/heartbeat.php"
   }
 }
