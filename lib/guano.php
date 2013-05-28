@@ -23,7 +23,7 @@
 		$guano['maxFollowing'] = $guano['followers_count'];
 	}
 
-	if (count($guano['object']) > 0 && isset($guano['object'])) {
+	if (isset($guano['object'])) {
 		foreach ($guano['object'] AS $id => $o) {
 			if ($o['followed'] <= $guano['followTime'] && $o['followed'] != 0) {
 				$params = array(
