@@ -7,6 +7,8 @@ Guano runs off of the already established 'team follow back' process that alread
 
 Guano isn't recommended for personal Twitter accounts, however building up a large number of followers may help with your personal gains if people value a number of followers over quality such as marathon ballots.
 
+For a more indepth look into the project, head over to http://guano.im/about/
+
 Quick Installation
 =====
 
