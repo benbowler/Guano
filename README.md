@@ -5,7 +5,7 @@ Guano - a small set of scripts that helps you build an audience on Twitter, auto
 
 Guano runs off of the already established 'team follow back' process that already exists within twitter and thrives off of other peoples vanity.
 
-Guano isn't recommended for personal Twitter accounts, however building up a large number of followers may help with your personal gains if people value a number of followers over quality.
+Guano isn't recommended for personal Twitter accounts, however building up a large number of followers may help with your personal gains if people value a number of followers over quality such as marathon ballots.
 
 Quick Installation
 =====
@@ -35,6 +35,6 @@ Lets get Guano running in less than 10mins with these easy steps!
 
 What is heartbeat and autoupdate?
 =====
-Heartbeat sends details about your instance of Guano to us so we can track usage, and more importantly in future versions we can deliver lists of followers directly to you that 100% follow back.
+Heartbeat sends details about your instance of Guano to us so we can track usage, and more importantly in future versions we can deliver lists of followers directly to you that 100% follow back. You can turn this off in poop.php.
 
-The auto-updater makes sure you're always running the latest version of Guano direct from Github. Check the version.json file for references.
+The auto-updater makes sure you're always running the latest version of Guano direct from Github. Check the version.json file for references. You can turn this off in poop.php.
