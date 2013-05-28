@@ -1,4 +1,4 @@
-Guano (β)
+Guano (αlpha)
 =====
 
 Guano - a small set of scripts that helps you build an audience on Twitter, automagically.
