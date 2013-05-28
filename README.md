@@ -10,7 +10,7 @@ Guano isn't recommended for personal Twitter accounts, however building up a lar
 Quick Installation
 =====
 
-    Warning! If you're using Guano on a personal account, make sure you put all of the people you really want to follow in a list for later browsing!
+> Warning! If you're using Guano on a personal account, make sure you put all of the people you really want to follow in a list for later browsing!
 
 Lets get Guano running in less than 10mins with these easy steps!
 
