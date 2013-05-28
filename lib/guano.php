@@ -20,7 +20,7 @@
 	}
 
 	if (isset($argv)) {
-		if ($argv[0] == "unfollow") {
+		if ($argv[1] == "unfollow") {
 			echo "Executing mass unfollow\n";
 			$ids = $cb->friends_ids();
 			foreach ($ids->ids AS $id) {
