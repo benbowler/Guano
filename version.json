@@ -1,14 +1,14 @@
 {
   "guano":{
-    "version":8,
+    "version":10,
     "path":"https:\/\/raw.github.com\/zivc\/Guano\/master\/lib\/guano.php"
   },
   "codebird":{
-    "version":6,
+    "version":10,
     "path":"https:\/\/raw.github.com\/zivc\/Guano\/master\/lib\/codebird.php"
   },
   "heartbeat":{
-    "version":6,
+    "version":10,
     "path":"https:\/\/raw.github.com\/zivc\/Guano\/master\/lib\/heartbeat.php"
   }
 }

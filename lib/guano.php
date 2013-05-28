@@ -20,20 +20,22 @@
 	}
 
 	if (isset($argv)) {
-		if ($argv[1] == "unfollow") {
-			echo "Executing mass unfollow\n";
-			$ids = $cb->friends_ids();
-			foreach ($ids->ids AS $id) {
-				$params = array(
-					"user_id" => $id
-				);
-				$reply = $cb->friendships_destroy($params);
-				if ($reply->httpstatus != 200) {
-					echo "You might need to run unfollow again in 15mins to finish this list\n";
-					continue;
+		if (isset($argv[1])) {
+			if ($argv[1] == "unfollow") {
+				echo "Executing mass unfollow\n";
+				$ids = $cb->friends_ids();
+				foreach ($ids->ids AS $id) {
+					$params = array(
+						"user_id" => $id
+					);
+					$reply = $cb->friendships_destroy($params);
+					if ($reply->httpstatus != 200) {
+						echo "You might need to run unfollow again in 15mins to finish this list\n";
+						continue;
+					}
 				}
+				exit(0);
 			}
-			exit(0);
 		}
 	}
 
