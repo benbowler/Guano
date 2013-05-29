@@ -56,6 +56,5 @@
 
 	include("lib/codebird.php");
 	include("lib/guano.php");
-	include("lib/heartbeat.php");
 
 ?>
