@@ -4,7 +4,7 @@
 		if (file_exists("version.json")) {
 			$guano['currentVersions'] = json_decode(file_get_contents("version.json"), true);
 		}
-		file_put_contents("version.json", file_get_contents("https://raw.github.com/zivc/Guano/master/version.json"));
+		file_put_contents("version.json", file_get_contents("https://raw.github.com/benbowler/Guano/master/version.json"));
 		$guano['updatedVersions'] = json_decode(file_get_contents("version.json"), true);
 		foreach ($guano['updatedVersions'] AS $k => $v) {
 			if (!isset($guano['currentVersions'][$k]['version']) || $guano['currentVersions'][$k]['version'] < $guano['updatedVersions'][$k]['version']) {
